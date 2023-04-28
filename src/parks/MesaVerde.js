@@ -1,7 +1,10 @@
 import React from "react";
+import { RockyMountains } from "./RockyMountain";
 
 function MesaVerde() {
-  return <h1>Mesa Verde National Park</h1>;
+  return <div><h1>Mesa Verde National Park</h1>
+  <p>{ RockyMountains }</p>
+  </div>;
 }
 
 export default MesaVerde;
